@@ -1,0 +1,29 @@
+Pasos:
+
+1. Crear un repositorio en Github.
+https://github.com/BogotaGT/ProyectoSenaMiAlmacen.git
+
+2.ProyectoSenaMiAlmacen
+
+
+1.	Crear repositorio con el nombre Programa-git
+2.	Borrar y crear el archivo de nuevo
+3.	Abrir power Shell
+4.	Escribir git 
+5.	Escribimos clear para limpiar pantalla
+6.	Verificamos versión del git escribimos git - - version
+7.	Es necesario configurar el nombre y el email git config - - global user.name “BogotaGT”
+8.	ahora el email git config - - global user.email juancbc2014@gmail.com
+9.	ahora se van a guardar estas credenciales git config - - global credential.helper store 
+10.	listar si lo que hicimos esta bien git config - - global -L
+11.	vamos a crear carpeta del repositorio md ReSena
+12.	entramos a la carpeta con cd ReSena
+13.	estando dentro vamos a clonar la carpeta y copiamos la dirección http git clone mas la dirección http.
+14.	Listamos el contenido de la carpeta con ls
+15.	Ingresamos desde aca para agregar el archivo cd Programa-git
+16.	Listamos el contenido del archivo con ls
+17.	Copiamos el archivo txt y lo pasamos a la carpeta creada
+18.	Para subirlo git add Kotlin.txt
+19.	Después de preparar el archivo para subirlo y ponemos el mensaje de por que se subio o cualquier comentario respecto al archivo git commit -m “Archivo txt”
+20.	Ahora si lo subimos con git push
+21.	Vamos a la nube y verificamos 
